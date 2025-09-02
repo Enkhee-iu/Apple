@@ -37,7 +37,11 @@ padding: 16px 0 15px;
     width: 328px;
     height: 37px;
     display: flex;
+<<<<<<< HEAD
     justify-content: center;
+=======
+    justify-content: center;    
+>>>>>>> a1ac50f (jashdkaj)
     flex-direction: column;
 }
 .title1{
@@ -56,6 +60,7 @@ padding: 16px 0 15px;
     flex-shrink: 0;
     display: flex;
     gap: 16px;
+<<<<<<< HEAD
     justify-content: center;
     align-items:end;
 }
@@ -143,4 +148,214 @@ padding: 16px 0 15px;
 }
 
 
+=======
+    justify-content: center;  
+}
+>>>>>>> a1ac50f (jashdkaj)
 
+   
+
+.part{
+    width: 390px;
+    height: 500px;
+    flex-shrink: 0;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: end;
+}
+.fail{
+    width: 390px;
+    height: 500px;
+    flex-shrink: 0;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.box1{
+    display: flex;
+    width: 241px;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+.iptitle1{
+    color: #f5f5f7;
+    text-align: center;
+    font-family: "inter";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+}
+.iptitle2{
+    color: #f5f5f7;
+    text-align: center;
+    font-family: "inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    align-items: stretch;
+    margin-top: 16px;
+    margin-bottom: 36px;
+}
+.learn{
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #0071e3;
+    border-radius: 999px;
+    width: 80px;
+    height: 20px;
+}
+.learntit{
+    color: #fff;
+    text-align: center;
+    font-family: "inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.buy{
+    display: flex;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 999px;
+    border: 1px solid #2997ff;
+}
+.buytit{
+    color: #2997ff;
+}
+.part3{
+    background-image: url(img/ip16.png);
+}
+.container1{
+    margin-top: 36px;
+}
+
+.learn1{
+    background: #fff;
+}
+.learntit1{
+    color: #000000;
+}
+.buy1{
+    border: 1px solid #fff;
+}
+.buy2{
+    color: #ffffff;
+}
+.part4{
+    background-image: url(img/Figure.png);
+}
+.container2{
+    margin-top: 36px;
+}
+
+.ipadtitle1{
+    color: #000;
+    text-align: center;
+    font-family: "inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.hellotit{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.hello{
+    text-align: center;
+    font-family: "inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    background: linear-gradient(90deg, #0090f7, #ba62fc 33.33%, #f2416b 66.67%, #f55600 100%);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}  
+
+.part5{
+    background-image: url(img/Figure\ 2png.png);
+}
+.container3{
+    display: flex;
+    width: 241px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.airicon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-items: stretch;
+}
+
+.part6{
+    background-image: url(img/Figure\ 3.png);
+}
+.iconandwatch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+.watch{
+    color: #000;
+    text-align: center;
+    font-family: "inter";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.serbox{
+    width: 152px;
+    height: 16px;
+    margin-left: 10px;
+}
+.ser{
+    color: #000;
+    text-align: center;
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2px;
+    margin-left: 40px;
+}
+.iwatchtitle{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.part7{
+    background-image: url(img/Figure\ 4.png);
+}
+.part8{
+    background-image: url(img/Figure5.png);
+}
