@@ -228,6 +228,12 @@
 .part5{
     background-image: url(img/Figure\ 2png.png);
 }
+@media(min-width:1920px){
+    .part5{display: none;}
+}
+@media (max-width:1920px) {
+       .desktopimg5{display: none;}
+    }
 .container3{
     display: flex;
     width: 241px;
@@ -311,7 +317,7 @@
 }
 
 .part9{
-    background-image: url(img/Figure\ 6.png);
+    background-image: url(img/Figure6.png);
 }
 
 .container5{
@@ -340,7 +346,7 @@
 }
 
 .part10{
-    background-image: url(img/Figure\ 7.png);
+    background-image: url(img/Figure7.png);
 }
 
 .trd{
@@ -418,12 +424,15 @@
     display: grid;
     grid-template-columns: auto auto;
     gap: 12px;
+    width: 100%;
+   
 }
 }
 
 .tabletscroll{
     display: flex;
     gap: 16px;
+    
 }
 @media(min-width:766px){
     .link{display: none;}
@@ -436,6 +445,9 @@
  .desktopscroll{
     display: flex;
     gap: 16px;
+ }
+ .blitz{
+    height: 387px;
  }
 @media(min-width:1920px){
     .tabletscroll{display: none;}
@@ -457,6 +469,16 @@
     .desktoplistscroll{
         display: none;
     }
+}
+@media(min-width:1920px){
+    
+    .part4{
+        display: none;
+    
+    }
+} 
+@media(max-width:1920px){
+    .desktopimg4{display: none;}
 }
 
 .deskimg{
@@ -480,4 +502,81 @@
 }
 .desktoplistscroll{ 
     width: 1000px;  
+}
+.desktopimg4{
+    background-image: url(img2/tomzurag3.jpg);
+    width: 3008px;
+    height: 692px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.deskimg3{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    
+}
+.box4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 450px;
+}
+.shop{
+    margin-left: 85px;
+    margin-top: 16px;
+}
+.desktopimg5{
+    background-image: url(img2/ipadair2.jpg);
+}
+.desktopimg6{
+    background-image: url(img2/tomzurag5.jpg);
+    background-position: center;
+}
+@media(min-width:1920px){
+    .part6{display: none;}
+}
+@media(max-width:1920px){
+    .desktopimg6{display: none;}
+}
+.desktopimg7{
+    background-image: url(img2/tomzurag6.jpg);
+}
+@media(min-width:1920px){
+    .part7{display: none;}
+}
+@media(max-width:1920px){
+    .desktopimg7{display: none;}
+}
+.desktopimg8{
+    background-image: url(img2/tomzurag7.jpg);
+    background-position: center
+    ;
+}
+@media(min-width:1920px){
+    .part8{display:none;}
+}
+@media(max-width:1920px){
+    .desktopimg8{display: none;}
+}
+.desktopimg9{
+    background-image: url(img2/tomzurag8.jpg);
+}
+@media(min-width:1920px){
+    .part9{display: none;}
+}
+@media(max-width:1920px){
+    .desktopimg9{display: none;}
+    background-position: center;
+}
+.desktopimg10{
+    background-image: url(img2/tomzurag9.jpg);
+    background-position: center;
+}
+@media(min-width:1920px){
+    .part10{display: none;}
+}
+@media(max-width:1920px){
+    .desktopimg10{display: none;}
 }
