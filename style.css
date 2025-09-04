@@ -168,6 +168,9 @@
         background-image: url(img2/tomzurag2.jpg);
     }
 }
+.container{
+    margin-top: 40px;
+}
 .container1{
     margin-top: 36px;
 }
@@ -568,7 +571,7 @@
 }
 @media(max-width:1920px){
     .desktopimg9{display: none;}
-    background-position: center;
+    
 }
 .desktopimg10{
     background-image: url(img2/tomzurag9.jpg);
