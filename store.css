@@ -135,14 +135,252 @@
     gap: 24px;
     margin-top: 60px;
 }
+.storehugebox{
+    display: flex;
+    gap: 20px;
+}
 .storetitle1{
     display: flex;
     gap: 4px;
+    margin-top: 60px;
 }
 .storebox{
     background-image: url(picture/iphone16pro.png);
     width: 480px;
     height: 500px;
-    margin-top: 24px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    /* align-items: start; */
+    padding: 30px;
+    border-radius: 20px;
     
 }
+.storebox p {
+    background-color: transparent;
+}
+.store1{
+   
+    font-family: "inter";
+    font-weight: 700;
+    font-style: bold;
+    font-size: 24px;
+    line-height: 32px;
+     background: -webkit-linear-gradient(#0090F7, #BA62FC, #F2416B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gift1{
+     font-family: "inter";
+    font-weight: 700;
+    font-style: bold;
+    font-size: 24px;
+    color: #6e6e73;
+    line-height: 32px;
+}
+
+
+
+.boxtitle1{
+    font-size: "inter";
+    font-weight: 700;
+    font-style: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: #b64400;
+}
+.boxtitle2{
+    font-family: "inter";
+    font-weight: 700;
+    font-style: bold;
+    font-size: 26px;
+    line-height: 32px;
+}
+.boxtitle3{
+    font-family: "inter";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 12px;
+}
+.storebox2{
+    
+
+}
+.picture{
+    width: 480px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    /* align-items: start; */
+    padding: 30px;
+    border-radius: 20px;
+}
+.storebox2{
+    background-image: url(picture/apple\ watch\ series\ 10.jpg);
+}
+.storebox3{
+    background-image: url(picture/ipad\ mini.jpg);
+}
+.storebox4{
+    background-image: url(picture/macbook\ pro.jpg);
+}
+.storecard1{
+    background-image: url(picture/make\ airpod1.png);
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    /* align-items: start; */
+    padding: 30px;
+    border-radius: 20px;
+}
+.storehugebox2{
+    gap: 20px;
+    display: flex;
+}
+.boxwidth{
+    width: 197px;
+    height: 66px;
+    background: transparent;
+}
+.listitem {
+width: 313px;
+position: relative;
+box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.08);
+border-radius: 18px;
+background-color: #fff;
+height: 550px;
+
+
+text-align: left;
+font-size: 12px;
+color: #b64400;
+font-family: "inter";
+}
+
+.airpods-max-select-202409-purp-icon {
+position: absolute;
+top: 71px;
+left: calc(50% - 115px);
+width: 230px;
+height: 230px;
+object-fit: cover;
+}
+.list-airpods-max-purpleava {
+position: absolute;
+width: 80.83%;
+top: 301px;
+right: 9.58%;
+left: 9.58%;
+height: 58px;
+}
+.item-airpods-max-select-2024 {
+position: absolute;
+top: 25px;
+left: calc(50% - 47.5px);
+width: 12px;
+height: 12px;
+object-fit: cover;
+}
+.listitem-item-airpods-max-select-2024 {
+position: absolute;
+top: 25px;
+left: calc(50% - 28.5px);
+width: 12px;
+height: 12px;
+object-fit: cover;
+}
+.item-airpods-max-select-20242 {
+position: absolute;
+top: 25px;
+left: calc(50% - 9.5px);
+width: 12px;
+height: 12px;
+object-fit: cover;
+}
+.item-airpods-max-select-20243 {
+position: absolute;
+top: 25px;
+left: calc(50% + 9.5px);
+width: 12px;
+height: 12px;
+object-fit: cover;
+}
+.item-airpods-max-select-20244 {
+position: absolute;
+top: 25px;
+left: calc(50% + 28.5px);
+width: 12px;
+height: 12px;
+object-fit: cover;
+}
+.description {
+position: absolute;
+top: 359px;
+left: 28px;
+width: 257px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+gap: 32px;
+}
+.free-engraving-parent {
+align-self: stretch;
+height: 61px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+gap: 6px;
+background-color: transparent;
+}
+.free-engraving {
+align-self: stretch;
+position: relative;
+line-height: 16px;
+display: flex;
+align-items: center;
+height: 15px;
+flex-shrink: 0;
+}
+.airpods-max- {
+align-self: stretch;
+position: relative;
+font-size: 18px;
+line-height: 20px;
+color: #1d1d1f;
+background-color: transparent;
+}
+.div {
+align-self: stretch;
+position: relative;
+font-size: 14px;
+line-height: 18px;
+color: #1d1d1f;
+display: flex;
+align-items: center;
+height: 16px;
+margin-top: 20px;
+}
+.storecard2{
+    background-image: url(picture/store-card-40-holiday-quick-picks-202411.png);
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    /* align-items: start; */
+    padding: 30px;
+    border-radius: 20px;
+}
+
+
