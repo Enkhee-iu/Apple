@@ -51,7 +51,7 @@
 .headertitle3{
     display: flex;
     padding-right: 140px;
-    padding-left: 140px;
+    
     gap: 32px;
     align-items: center;
    
@@ -221,16 +221,16 @@
     border-radius: 20px;
 }
 .storebox2{
-    background-image: url(picture/apple\ watch\ series\ 10.jpg);
+    background-image: url(picture/store-card-50-holiday-watch-s10-202411.png);
 }
 .storebox3{
-    background-image: url(picture/ipad\ mini.jpg);
+    background-image: url(picture/store-card-50-holiday-ipad-mini-202411.png);
 }
 .storebox4{
-    background-image: url(picture/macbook\ pro.jpg);
+    background-image: url(picture/store\ macbook.jpg);
 }
 .storecard1{
-    background-image: url(picture/make\ airpod1.png);
+    background-image: url(picture/store-card-40-holiday-engraving-202411.png);
     width: 400px;
     height: 500px;
     background-size: cover;
@@ -280,6 +280,7 @@ top: 301px;
 right: 9.58%;
 left: 9.58%;
 height: 58px;
+background-color: transparent;
 }
 .item-airpods-max-select-2024 {
 position: absolute;
@@ -331,6 +332,7 @@ flex-direction: column;
 align-items: flex-start;
 justify-content: flex-start;
 gap: 32px;
+background-color: transparent;
 }
 .free-engraving-parent {
 align-self: stretch;
@@ -350,6 +352,7 @@ display: flex;
 align-items: center;
 height: 15px;
 flex-shrink: 0;
+background-color: transparent;
 }
 .airpods-max- {
 align-self: stretch;
@@ -369,9 +372,10 @@ display: flex;
 align-items: center;
 height: 16px;
 margin-top: 20px;
+background-color: transparent;
 }
 .storecard2{
-    background-image: url(picture/store-card-40-holiday-quick-picks-202411.png);
+    background-image: url(picture/store-card.png);
     width: 400px;
     height: 500px;
     background-size: cover;
@@ -383,4 +387,363 @@ margin-top: 20px;
     border-radius: 20px;
 }
 
+.storehugebox3{
+    width: 480px;
+    height: 500px;
+    border-radius: 18px;
+    background-image: url(picture/store-card-50-holiday-delivery-pickup-202411.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    /* align-items: start; */
+    padding: 30px;
+    border-radius: 20px;
+}
+.storecard50{
+    border-radius: 18px;
+    
+}
+.deliveryfree{
+    font-family: "inter";
+    font-weight: 700;
+    font-style: bold;
+    font-size: 26px;
+    line-height: 32px;
+    background-color: transparent;
+    padding-right: 100px;
+}
 
+.doublediv{
+    gap: 20px;
+  
+}
+.onlyatapple{
+    display: flex;
+    gap: 20px;
+}
+.Customize{
+    width: 313px;
+    height: 240px;
+    background-color: #ffffff;
+}
+
+.deliveryfree{
+    font-family: "inter";
+    font-weight: 700;
+    font-style: bold;
+    font-size: 26px;
+    line-height: 32px;
+    background-color: transparent;
+    padding-right: 100px;
+}
+
+.title1{
+    width: 313px;
+    height: 210px;
+    border-radius: 18px;
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    /* align-items: start; */
+    padding: 30px;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    
+}
+
+.title1-customize{
+    font-family: "inter";
+    font-weight: 700;
+    font-style: bold;
+    font-size: 26px;
+    line-height: 32px;
+    background-color: transparent;
+    padding-right: 100px;
+    align-items: center;
+}
+
+.titlesecond{
+   margin-top: 20px;
+}
+
+.storehugebox4{
+    width: 480px;
+    height: 500px;
+    border-radius: 18px;
+    background-image: url(picture/store-card-50-holiday-trade-in-202411.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    /* align-items: start; */
+    padding: 30px;
+    border-radius: 20px;
+}
+.boxtitletrade{
+    font-size: "inter";
+    font-weight: 700;
+    font-style: bold;
+    font-size:16px;
+    line-height: 26px;
+    color: #6E6E73;
+    background-color: transparent;
+}
+.storehugebox5{
+    width: 480px;
+    height: 500px;
+    border-radius: 18px;
+    background-image: url(picture/7be9e8c4cd1a574c53bacf2396a17f1007bfc091.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    /* align-items: start; */
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.storehugebox6{
+    width: 480px;
+    height: 500px;
+    border-radius: 18px;
+    background-image: url(picture/store-card-50-holiday-apple-music-202411.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    /* align-items: start; */
+    padding: 30px;
+    border-radius: 20px;
+}
+.boxtitletrade1{
+    font-size: "inter";
+    font-weight: 400;
+    font-style: "regular";
+    font-size: 17px;
+    line-height: 20px;
+    color: #1D1D1F;
+    background-color: transparent;
+    width: 259px;
+    height: 41px;
+    margin-top: 5px;
+}
+
+.apple-experience{
+    display: flex;
+    gap: 20px;
+}
+    
+.storehugebox7{
+    width: 480px;
+    height: 500px;
+    border-radius: 18px;
+    background-image: url(picture/store-card-50-holiday-apple-tv-202411.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    /* align-items: start; */
+    padding: 30px;
+    border-radius: 20px;
+}
+.storehugebox8{
+    width: 480px;
+    height: 500px;
+    border-radius: 18px;
+    background-image: url(picture/store-card-50-subscriptions-202108_GEO_US.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    /* align-items: start; */
+    padding: 30px;
+    border-radius: 20px;
+}
+.boxtitletrade2{
+    font-style: "inter";
+    font-weight: 700;
+    /* font-style: bold; */
+    font-size: 12px;
+    line-height: 16px;
+    color: #f5f5f5;
+    background-color: transparent;
+}
+.deliveryfree1{
+     font-family: "inter";
+    font-weight: 700;
+    font-style: bold;
+    font-size: 26px;
+    line-height: 32px;
+    background-color: transparent;
+    padding-right: 100px;
+    color: #f5f5f5;
+}
+.storehugebox9{
+    width: 480px;
+    height: 500px;
+    border-radius: 18px;
+    background-image: url(picture/4c93c049459dcec6247af385b50ac485e92e5a45.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    /* align-items: start; */
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.special-savings{
+    display: flex;
+    gap: 20px;
+}
+
+.storehugebox10{
+    width: 480px;
+    height: 500px;
+    border-radius: 18px;
+    background-image: url(picture/iphone-card-40-carriertrade-202409.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    /* align-items: start; */
+    padding: 30px;
+    border-radius: 20px;
+}
+.getup{
+    width: 320px;
+    height: 80px;
+    font-family: "inter";
+    font-weight: 400;
+    font-style: "regular";
+    font-size: 17px;
+    line-height: 20px;
+    color: #1d1d1f;
+    background-color: transparent;
+    margin-top: 5px;
+}
+
+.storehugebox11{
+    width: 480px;
+    height: 500px;
+    border-radius: 18px;
+    background-image: url(picture/store-card-40-bts-edu-macbook-air-ipad-air-202406.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    /* align-items: start; */
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.storehugebox12{
+    width: 480px;
+    height: 500px;
+    border-radius: 18px;
+    background-image: url(picture/store-card-40-refurb-202408.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    /* align-items: start; */
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.storehugebox13{
+    width: 480px;
+    height: 500px;
+    border-radius: 18px;
+    background-image: url(picture/iphone-card-40-business-202409.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    /* align-items: start; */
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.deliveryfree2{
+     font-family: "inter";
+    font-weight: 700;
+    font-style: bold;
+    font-size: 26px;
+    line-height: 32px;
+    background-color: transparent;
+    padding-right: 100px;
+    color: #f5f5f5;
+}
+
+.storehugebox14{
+    width: 480px;
+    height: 500px;
+    border-radius: 18px;
+    background-image: url(picture/9511d82e0fa4f14f3d23b485ab3928f9d27a5012.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    /* align-items: start; */
+    padding: 30px;
+    border-radius: 20px;
+}
+
+
+
+.section {
+width: 100%;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+
+box-sizing: border-box;
+gap: 24px;
+text-align: left;
+font-size: 26px;
+color: #1d1d1f;
+font-family: "inter";
+margin-bottom: 100px;
+margin-top: 60px;
+}
+.heading-2 {
+align-self: stretch;
+position: relative;
+line-height: 32px;
+}
+.item-link-parent {
+align-self: stretch;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+gap: 12px;
+text-align: center;
+font-size: 14px;
+}
+.item-link {
+border-radius: 999px;
+border: 1px solid #1d1d1f;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+padding: 10px 12px;
+gap: 8px;
+}
+.order-status {
+position: relative;
+line-height: 20px;
+}
+.vector-icon {
+width: 8px;
+position: relative;
+height: 8px;
+}
